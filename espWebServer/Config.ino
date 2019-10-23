@@ -70,7 +70,8 @@ String getJson (const Config &config){
 
   // Set the values
   root["vazao"]      = config.vazao;
-  root["volume"]     = config.volume;       
+  root["volume"]     = config.volume;
+  root["custo"]      = config.custo; 
 ;
   
 
@@ -139,6 +140,10 @@ bool setJson (String json, Config &config){
   strlcpy(config.volume,             
           root["volume"] | "0",
           sizeof(config.volume));
+          
+  strlcpy(config.custo,             
+          root["custo"] | "0",
+          sizeof(config.custo));
 
   return 0;
  

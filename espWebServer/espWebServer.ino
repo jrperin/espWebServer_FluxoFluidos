@@ -69,6 +69,7 @@ const char* SSIDName     = "OPALAO_TUBARAO";
 struct Config {
   char     vazao[64];
   char     volume[64];
+  char     custo[64];
 };
 Config config;
 

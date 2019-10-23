@@ -1,4 +1,5 @@
 {
-  "vazao": "0.5 L/seg",
-  "volume": "10 m3"
+  "vazao" : "12.3 L/seg",
+  "volume": "12.3 L",
+  "custo" : "R$ 123.4"
 }
